@@ -5,8 +5,3 @@ L'application utilise les namespaces Kubernetes pour déployer différents envir
 Les namespaces sont créés lors de l'exécution de la commande "helm upgrade ... --namespace ... --create-namespace" dans le Jenkinsfile.
 
 Chaque namespace fait alors appel à son propre fichier de valeurs, dev-values.yaml, qa-values.yaml...
-
-# Liens Github et Docker Hub
-
-- Le lien du dépôt GitHub est dans le fichier github.txt
-- Les liens du Docker Hub sont dans le fichier docker_hub.txt
